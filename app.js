@@ -16,7 +16,7 @@ app.use(cookieParser())
 
 app.use(
     cors({
-        origin:"https://serverapi1.onrender.com",
+        origin: "https://coursebookingbyankita.netlify.app",
         credentials:true,
     })
 );
